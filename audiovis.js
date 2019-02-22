@@ -52,7 +52,7 @@ function draw() {
     stroke(i, 255, 255)// sets lines to a gradient colour
     rect (5,mouseX,10,bass);// These rectangles can be manipulated according to the X position of the mouse and are also changing according to the values of the bass
     rect (5,mouseY,5,bass);// These rectangles can be manipulated according to the Y position of the mouse and are also changing according to the values of the bass
-  	rect (treble,mouseY,5, 5);// These ractangles have the treble value as one of the parameters and can also be manipulated through mouse movement
+    rect (treble,mouseY,5, 5);// These ractangles have the treble value as one of the parameters and can also be manipulated through mouse movement
 }
   //console.log(mid);
 
